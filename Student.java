@@ -1,4 +1,4 @@
-import.java,util.Scaneer;
+import.java.util.Scaneer;
 
    Class Student
   {  
