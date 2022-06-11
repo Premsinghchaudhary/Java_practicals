@@ -22,7 +22,7 @@ else if(a%2==0 )
 {
  System.out.println("value of a is even now find a cube :" + (a*a*a) );
 }
-else()
+else
 {
 
  System.out.println(" value of a is odd");
@@ -36,5 +36,4 @@ else()
 }
 
  
-}
 }
