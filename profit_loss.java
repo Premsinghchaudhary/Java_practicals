@@ -12,12 +12,12 @@ public static void main (String args [])
 
  System.out.println("enter the selling price of : ");  //get the selling price from user
  SP=sc.nextDouble();
- System.out.println(" Selling price = ");
+ System.out.println(" Selling price = "+SP);
 
 
  System.out.println("enter the Cost price of : ");  //get the cost price from user
  CP=sc.nextDouble();
- System.out.println(" Cost price = ");
+ System.out.println(" Cost price = "+CP);
 
 
   
