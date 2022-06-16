@@ -8,7 +8,7 @@ class Rate_of_interset
 {
 public static void main ( String args[])
 {
-  double  PA , R , Y , SI ;
+  double  PA , R , Y , SI ; //variable declartion
 
  Scanner sc =new Scanner(System.in);   //using scanner
 
