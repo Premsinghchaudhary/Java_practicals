@@ -2,15 +2,14 @@ package loops;
 
 public class nested_ {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int i,j;
-		for( i=1;i<5;i++)
+	public static void main(String[] args) 
+	{
+		int i,j; //vaariable declared 
+		for( i=1;i<5;i++) //using for loop 'row'
        		{
-                  for (j=1;j<5;j++)
+                  for (j=1;j<5;j++)//using for loop 'column'
                   {
-                    System.out.print ( "*");
+                    System.out.print ( "*"); //print the *
                   }
                   System.out.println ();
             }	 
