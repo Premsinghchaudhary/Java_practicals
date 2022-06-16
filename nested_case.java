@@ -6,7 +6,7 @@ public class nested_case
 
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
+		
 		
 	
 		
@@ -17,18 +17,18 @@ public class nested_case
 			4:Greater Between three No
 	      */
               Scanner sc=new Scanner( System.in);
-              System.out.println( " Select the choice :- \n 1:check Even or Odd \n 2:Square \n 3: check Vowel or Not \n 4:Greater Between three No ");
+              System.out.println( " Select the choice :- \n 1:check Even or Odd \n 2:Square \n 3: check Vowel or Not \n 4:Greater Between three No "); //select the use itself
               
-              System.out.println( " Enter your choice : ");
+              System.out.println( " Enter your choice : ");//get from user 
               int choice = sc.nextInt();
               
               
-              switch( choice)
+              switch( choice) //using switch case
               {
               case 1: System.out.println(" Enter the number :  ");
-                        int n1;         
+                        int n1;         //variable declared
                        n1=sc.nextInt();              
-                        if( n1%2==0)
+                        if( n1%2==0) // using  if statement
                         {
                          System.out.println( " It is the EVEN no.");	
                         }
@@ -40,13 +40,14 @@ public class nested_case
               case 2:System.out.println(" Enter the number :  ");
                        int n;
                       n=sc.nextInt();              
-                     System.out.println(" The square is =  "+(n*n));    
+                     System.out.println(" The square is =  "+(n*n));  //calculate square and print the value  
                      
               case 3:System.out.println(" enter the character :-");
-                      char ch;  
+                      char ch;   //here datatype is char 
                      ch=sc.next().charAt(0);
-                     switch( ch) 
+                     switch( ch)  //switch case 
                      {
+				     //check the vowel
                      case 'a': System.out.println(  " This  is a vowel "+ch);
                      break;
                      
@@ -64,34 +65,34 @@ public class nested_case
                      
                      default:
                            {
-                         	 System.out.println ("This is not a vowel");
+                         	 System.out.println ("This is not a vowel"); 
                          	 
                            }
                       	    break;
                      }
                         
-              case 4:System.out.println( "enter the value of x : ");
-                            int x,y,z;
+              case 4:System.out.println( "enter the value of x : "); //get from the user 
+                            int x,y,z; //declared variable
                             x=sc.nextInt();
                             
-                            System.out.println( "enter the value of y : ");
+                            System.out.println( "enter the value of y : ");//get from the user 
                             y=sc.nextInt();
                             
-                            System.out.println( "enter the value of z : ");
+                            System.out.println( "enter the value of z : ");//get from the user 
                             z=sc.nextInt();
                             
-                            if(x>y&&x>z ) 
+                            if(x>y&&x>z )  //using 'AND' logical opr. and condton statement 
                             {
-                            	System.out.println( " x is greater no = "+x);
+                            	System.out.println( " x is greater no = "+x); //print the value of x
                             }
                           
                             else if ( y>x&&y>z) 
                             {
-                            	System.out.println( " y is greater no = "+y);
+                            	System.out.println( " y is greater no = "+y);//print the value of y
                             }
                             else 
                             {
-                            	System.out.println( " z is greater no = "+z);
+                            	System.out.println( " z is greater no = "+z);//print the value of z
                             }
                             break;
                             
