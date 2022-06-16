@@ -4,11 +4,11 @@ class logical_opt
 public static void main (String args[])
 {
 
-  int x,y;
-  System.out.println( "enter the two numbers  ");
+  int x,y; //variable declared 
+  System.out.println( "enter the two numbers  ");//get the no from user
 
-  Scanner sc= new Scanner(System.in);
-
+  Scanner sc= new Scanner(System.in);//scanner
+//pass the value of x and y in scanner
    x=sc.nextInt();
   y=sc.nextInt();
      
