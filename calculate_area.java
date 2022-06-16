@@ -11,11 +11,10 @@ public static void main (String args [])
 // get the  value of leghth and breath from user
  
  System.out.println("Enter the length:  ");
- l=sc.nextDouble();
- 
+ l=sc.nextDouble(); 
  System.out.println("Enter the breath:  ");
  b=sc.nextDouble();
-
+// print the value of length and breadth
  System.out.println("lenght =  "+l);
  System.out.println("breath =  "+b);
 
