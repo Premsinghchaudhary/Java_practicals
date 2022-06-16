@@ -5,7 +5,7 @@ public class while_loop {
 	
 	public static void main ( String agrs [] ){
 		int  max,min; // declartion of the variable
-		Scanner sc=new Scanner ( System.in);
+		Scanner sc=new Scanner ( System.in);  //scanner 
 		
 		// Taking input from of the user
 		//for maximum value
@@ -18,7 +18,7 @@ public class while_loop {
 	    	int i=min;
 	    	while(i<=max)
 	    	{
-	    		System.out.println( i);
+	    		System.out.println( i); //print the max value 
 	    	i++;
 	    	}
 	    	
