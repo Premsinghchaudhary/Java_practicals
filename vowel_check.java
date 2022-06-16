@@ -6,8 +6,8 @@ import java.util.Scanner;
 {
  public static void main(String args[])
 {
- char c;
-   Scanner sc = new Scanner(System.in);
+ char c; //using data type is char and variable 'c'
+   Scanner sc = new Scanner(System.in); // create scanner
 
  //Get the inputs form user
 
@@ -18,12 +18,12 @@ import java.util.Scanner;
   // using condition statement 'if'
   if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='A'||c=='E'||c=='I'||c=='O'||c=='U' )
 {
- System.out.println(" It is vowel "+c);
+ System.out.println(" It is vowel "+c);  //check its is vowel 
 
 }
 else
 {
- System.out.println(" It is constant "+c);
+ System.out.println(" It is constant "+c); // check is constant 
 }  
    
    
