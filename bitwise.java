@@ -6,7 +6,7 @@ class bitwise
         int n1,n2,res;             //decleration of variable
         Scanner sc=new Scanner(System.in);
       
-      System.out.println(" enter the two numbers : ");
+      System.out.println(" enter the two numbers : ");//get input from user 
        n1=sc.nextInt();
        n2=sc.nextInt();
 
